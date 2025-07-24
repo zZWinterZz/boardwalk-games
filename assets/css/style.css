@@ -60,6 +60,11 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
+#new-games .card,
+#favourite-games .card {
+  margin-bottom: 1.5rem;
+}
+
 @media screen and (min-width: 768px) {
   #services .card-body {
     min-height: 191px;
