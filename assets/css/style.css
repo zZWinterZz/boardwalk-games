@@ -122,9 +122,27 @@ h2 {
   background-color: transparent;
 }
 
+@media screen and (max-width: 767px) {
+  #events .discount {
+    background-color: var(--highlight-color);
+    color: white;
+    padding: 3px 5px;
+  }
+  #events .table {
+    font-size: 12px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   #services .card-body {
     min-height: 191px;
+  }
+  #events .discount {
+    background-color: var(--highlight-color);
+    color: white;
+    max-width: fit-content;
+    padding: 3px 10px;
+    justify-self: center;
   }
 }
 
