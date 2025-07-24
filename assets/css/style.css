@@ -65,6 +65,40 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
+#contact {
+  background-color: var(--primary-color);
+  color: white;
+  padding-bottom: 3rem;
+}
+
+#contact h2 {
+  color: white;
+}
+
+#contact .sub-heading-color {
+  color: var(--highlight-color-light);
+}
+
+#contact i {
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+  margin-right: 15px;
+}
+
+#contact .social-links i {
+  color: var(--highlight-color-light);
+  font-size: 1.9rem;
+  transition: color 0.3s ease-in-out;
+}
+
+#contact .social-links i:hover {
+  color: var(--secondary-color);
+}
+
+#contact .table-dark * {
+  background-color: transparent;
+}
+
 @media screen and (min-width: 768px) {
   #services .card-body {
     min-height: 191px;
