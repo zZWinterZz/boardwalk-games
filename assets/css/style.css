@@ -111,6 +111,8 @@ h2 {
 #contact .social-links i {
   color: var(--highlight-color-light);
   font-size: 1.9rem;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
 }
 
@@ -144,8 +146,11 @@ h2 {
   #events .discount {
     background-color: var(--highlight-color);
     color: white;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
     max-width: fit-content;
     padding: 3px 10px;
+    -ms-grid-column-align: center;
     justify-self: center;
   }
 }
@@ -167,11 +172,3 @@ h2 {
     min-height: 195px;
   }
 }
-/* grid visualisation CSS for testing */
-/* .container, .row {
-border: 2px solid black;
-}
-.col-12 {
-border: 2px solid white;
-background-color: lightgray;
-} */
